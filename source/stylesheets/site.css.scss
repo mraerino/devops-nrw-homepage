@@ -15,6 +15,7 @@ body {
   background-repeat: no-repeat;
   min-height: 100%;
   width: 100%;
+  color: white;
 }
 
 .welcome {
@@ -77,6 +78,10 @@ a {
   -webkit-animation-duration: .9s;
 }
 
+.content {
+  padding: 10px;
+}
+
 @-webkit-keyframes welcome {
   from {
     -webkit-transform: scale(0);
@@ -95,3 +100,5 @@ a {
     -webkit-transform: scale(1);
   }
 }
+
+@import "meetup";
